@@ -32,6 +32,11 @@ app.listen(PORT, (err)=>{
      console.log(`Server is running on PORT : ${PORT}`)
 })
 
+//import router express
+app.use ('/api/contact',require('./routes/contactRoute'))
+
+
+
 
 
 
